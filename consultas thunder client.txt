@@ -1,0 +1,31 @@
+consultas thunder client
+
+Consultar videojuegos para PlayStation 5:
+
+Método: GET
+
+URL: http://localhost:3000/videojuegos/consola/PlayStation%205
+
+Consultar videojuegos con precio menor a 40:
+
+Método: GET
+
+URL: http://localhost:3000/videojuegos/precio/lt/40
+
+Consultar videojuegos multijugador con stock mayor a 0:
+
+Método: GET
+
+URL: http://localhost:3000/videojuegos/multijugador/stock/gt/0
+
+Contar videojuegos para Xbox Series X:
+
+Método: GET
+
+URL: http://localhost:3000/videojuegos/count/consola/Xbox%20Series%20X
+
+Consultar videojuegos con precio mayor a 50, solo nombre y precio:
+
+Método: GET
+
+URL: http://localhost:3000/videojuegos/precio/gt/50/nombre-precio

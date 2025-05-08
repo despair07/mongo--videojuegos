@@ -1,0 +1,59 @@
+db.videojuegos.insertMany([
+  {
+    "nombre": "The Legend of Zelda: Breath of the Wild",
+    "consola": "Nintendo Switch",
+    "precio": 59.99,
+    "stock": 12,
+    "multijugador": false
+  },
+  {
+    "nombre": "Spider-Man: Miles Morales",
+    "consola": "PlayStation 5",
+    "precio": 49.99,
+    "stock": 7,
+    "multijugador": false
+  },
+  {
+    "nombre": "Halo Infinite",
+    "consola": "Xbox Series X",
+    "precio": 69.99,
+    "stock": 15,
+    "multijugador": true
+  },
+  {
+    "nombre": "Mario Kart 8 Deluxe",
+    "consola": "Nintendo Switch",
+    "precio": 39.99,
+    "stock": 20,
+    "multijugador": true
+  },
+  {
+    "nombre": "FIFA 24",
+    "consola": "PlayStation 5",
+    "precio": 59.99,
+    "stock": 0,
+    "multijugador": true
+  },
+  {
+    "nombre": "Forza Horizon 5",
+    "consola": "Xbox Series X",
+    "precio": 34.99,
+    "stock": 10,
+    "multijugador": true
+  },
+  {
+    "nombre": "Ratchet & Clank: Rift Apart",
+    "consola": "PlayStation 5",
+    "precio": 69.99,
+    "stock": 5,
+    "multijugador": false
+  },
+  {
+    "nombre": "Animal Crossing: New Horizons",
+    "consola": "Nintendo Switch",
+    "precio": 29.99,
+    "stock": 8,
+    "multijugador": true
+  }
+]
+)
